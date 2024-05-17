@@ -1,0 +1,13 @@
+:root {
+  --primary-font-family : "DM Sans", sans-serif;
+
+
+  --secondary-font-family : Inter, Roboto, sans-serif;
+  --mat-primary-bg-color: #FFFFFF;
+  --footer-color: var(--mat-accent-color);
+  --footer-text-color: var(--mat-contrast-color);
+}
+
+$page-padding: 4%;
+$page-padding-xl: 7%;
+$page-padding-xxl: 10%;
