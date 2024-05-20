@@ -1,0 +1,33 @@
+.cards {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  min-width: 377px;
+  width: 28%;
+  margin-bottom: 87px;
+
+  &__image {
+    width: 100%;
+  }
+
+  &__title {
+    margin-top: 20px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  &__price {
+    margin-top: 10px;
+    color: rgb(161, 138, 104);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+}
